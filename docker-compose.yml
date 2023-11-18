@@ -1,0 +1,104 @@
+version: '3.8'
+services:
+  eureka:
+    build: ./Eureka
+    ports:
+      - "8650:8650"
+    environment:
+      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka:8650/eureka/
+      - EUREKA_CLIENT_REGISTER_WITH_EUREKA=false
+      - EUREKA_CLIENT_FETCH_REGISTRY=false
+
+  gateway:
+    build: ./Gateway
+    ports:
+      - "8080:8080"
+    environment:
+      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka:8650/eureka/
+    depends_on:
+      - eureka
+
+  book-service:
+    build: ./Book-Service
+    ports:
+      - "8081:8081"
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://dpg-claema9arfss73cql3i0-a.oregon-postgres.render.com/book_readr
+      - SPRING_DATASOURCE_USERNAME=postgress
+      - SPRING_DATASOURCE_PASSWORD=7kbZLEFirR2Tkqvro1xCc3N4y6MCQLSr
+      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka:8650/eureka/
+    depends_on:
+      - eureka
+
+  chapter-service:
+    build: ./Chapter-Service
+    ports:
+      - "8082:8082"
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://dpg-clbf0fqqviqc73cnurl0-a.oregon-postgres.render.com:5432/chapter_readr_ds
+      - SPRING_DATASOURCE_USERNAME=roote
+      - SPRING_DATASOURCE_PASSWORD=5V4PXV9EdQTYTT6x69fkKtSpVHtXOOq8
+      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka:8650/eureka/
+    depends_on:
+      - eureka
+  
+  comment-service:
+    build: ./Comment-Service
+    ports:
+      - "8083:8083"
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://dpg-clbfak2qviqc73co12rg-a.oregon-postgres.render.com/comment_readr
+      - SPRING_DATASOURCE_USERNAME=rotel
+      - SPRING_DATASOURCE_PASSWORD=FKiUofuAI14wIaUGNOSeppwGOttc88Ae
+      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka:8650/eureka/
+    depends_on:
+      - eureka
+  
+  language-service:
+    build: ./Language-Service
+    ports:
+      - "8087:8087"
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://dpg-clbff22qviqc73co1uig-a.oregon-postgres.render.com/language_readr_uvqp
+      - SPRING_DATASOURCE_USERNAME=languaje
+      - SPRING_DATASOURCE_PASSWORD=93gZwsZhubep8BwwpzMyFH722OcECOBe
+      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka:8650/eureka/
+    depends_on:
+      - eureka
+      
+  payment-service:
+    build: ./Payment-Service
+    ports:
+      - "8084:8084"
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://roundhouse.proxy.rlwy.net:24905/railway
+      - SPRING_DATASOURCE_USERNAME=postgres
+      - SPRING_DATASOURCE_PASSWORD=g5-5e2afF2F*45-CG33*fCCe-cCc6*35
+      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka:8650/eureka/
+    depends_on:
+      - eureka
+  saga-service:
+    build: ./Saga-Service
+    ports:
+      - "8085:8085"
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://viaduct.proxy.rlwy.net:51547/railway
+      - SPRING_DATASOURCE_USERNAME=postgres
+      - SPRING_DATASOURCE_PASSWORD=-3DFGAC4F5E--62G-f*fGb*a6DbFGdGD
+      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka:8650/eureka/
+    depends_on:
+      - eureka
+  
+  user-service:
+    build: ./User-Service
+    ports:
+      - "8086:8086"
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://viaduct.proxy.rlwy.net:42824/railway
+      - SPRING_DATASOURCE_USERNAME=postgres
+      - SPRING_DATASOURCE_PASSWORD=cbDeDB3e*fCG46c6AeFDd3dBbe156fd6
+      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka:8650/eureka/
+    depends_on:
+      - eureka
+  
+

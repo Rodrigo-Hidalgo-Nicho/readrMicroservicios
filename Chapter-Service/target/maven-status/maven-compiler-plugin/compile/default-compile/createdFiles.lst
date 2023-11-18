@@ -1,0 +1,16 @@
+com\monaschinas\readr\shared\exception\ResourceValidationException.class
+com\monaschinas\readr\chapter\resource\CreateChapterResource.class
+com\monaschinas\readr\chapter\mapping\MappingConfiguration.class
+com\monaschinas\readr\chapter\domain\persistence\ChapterRepository.class
+com\monaschinas\readr\chapter\resource\UpdateChapterResource.class
+com\monaschinas\readr\shared\mapping\MappingConfiguration.class
+com\monaschinas\readr\chapter\mapping\ChapterMapper.class
+com\monaschinas\readr\chapter\resource\ChapterResource.class
+com\monaschinas\readr\shared\domain\service\communication\BaseResponse.class
+com\monaschinas\readr\chapter\domain\model\Chapter.class
+com\monaschinas\readr\shared\exception\ResourceNotFoundException.class
+com\monaschinas\readr\shared\mapping\EnhancedModelMapper.class
+com\monaschinas\readr\chapter\api\rest\ChapterController.class
+com\monaschinas\readr\chapter\domain\service\ChapterService.class
+com\monaschinas\readr\ReadrApplication.class
+com\monaschinas\readr\chapter\service\ChapterServiceImpl.class

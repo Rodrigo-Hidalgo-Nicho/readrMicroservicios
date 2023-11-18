@@ -1,0 +1,16 @@
+com\monaschinas\readr\comment\resource\CommentResource.class
+com\monaschinas\readr\comment\mapping\CommentMapper.class
+com\monaschinas\readr\shared\exception\ResourceValidationException.class
+com\monaschinas\readr\comment\mapping\MappingConfiguration.class
+com\monaschinas\readr\comment\resource\UpdateCommentResource.class
+com\monaschinas\readr\comment\resource\CreateCommentResource.class
+com\monaschinas\readr\shared\mapping\MappingConfiguration.class
+com\monaschinas\readr\shared\domain\service\communication\BaseResponse.class
+com\monaschinas\readr\comment\domain\model\Comment.class
+com\monaschinas\readr\comment\service\CommentServiceImpl.class
+com\monaschinas\readr\comment\domain\persistence\CommentRepository.class
+com\monaschinas\readr\shared\exception\ResourceNotFoundException.class
+com\monaschinas\readr\shared\mapping\EnhancedModelMapper.class
+com\monaschinas\readr\comment\api\rest\CommentController.class
+com\monaschinas\readr\ReadrApplication.class
+com\monaschinas\readr\comment\domain\service\CommentService.class

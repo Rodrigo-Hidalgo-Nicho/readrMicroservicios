@@ -1,0 +1,16 @@
+C:\Users\jhuan\OneDrive\Escritorio\JOHAN\Codigos\CodigoJava\Readr-Microservice\Comment-Service\src\main\java\com\monaschinas\readr\comment\api\rest\CommentController.java
+C:\Users\jhuan\OneDrive\Escritorio\JOHAN\Codigos\CodigoJava\Readr-Microservice\Comment-Service\src\main\java\com\monaschinas\readr\comment\resource\CommentResource.java
+C:\Users\jhuan\OneDrive\Escritorio\JOHAN\Codigos\CodigoJava\Readr-Microservice\Comment-Service\src\main\java\com\monaschinas\readr\shared\exception\ResourceValidationException.java
+C:\Users\jhuan\OneDrive\Escritorio\JOHAN\Codigos\CodigoJava\Readr-Microservice\Comment-Service\src\main\java\com\monaschinas\readr\shared\mapping\EnhancedModelMapper.java
+C:\Users\jhuan\OneDrive\Escritorio\JOHAN\Codigos\CodigoJava\Readr-Microservice\Comment-Service\src\main\java\com\monaschinas\readr\comment\resource\CreateCommentResource.java
+C:\Users\jhuan\OneDrive\Escritorio\JOHAN\Codigos\CodigoJava\Readr-Microservice\Comment-Service\src\main\java\com\monaschinas\readr\comment\mapping\CommentMapper.java
+C:\Users\jhuan\OneDrive\Escritorio\JOHAN\Codigos\CodigoJava\Readr-Microservice\Comment-Service\src\main\java\com\monaschinas\readr\shared\exception\ResourceNotFoundException.java
+C:\Users\jhuan\OneDrive\Escritorio\JOHAN\Codigos\CodigoJava\Readr-Microservice\Comment-Service\src\main\java\com\monaschinas\readr\shared\domain\service\communication\BaseResponse.java
+C:\Users\jhuan\OneDrive\Escritorio\JOHAN\Codigos\CodigoJava\Readr-Microservice\Comment-Service\src\main\java\com\monaschinas\readr\comment\domain\service\CommentService.java
+C:\Users\jhuan\OneDrive\Escritorio\JOHAN\Codigos\CodigoJava\Readr-Microservice\Comment-Service\src\main\java\com\monaschinas\readr\ReadrApplication.java
+C:\Users\jhuan\OneDrive\Escritorio\JOHAN\Codigos\CodigoJava\Readr-Microservice\Comment-Service\src\main\java\com\monaschinas\readr\comment\service\CommentServiceImpl.java
+C:\Users\jhuan\OneDrive\Escritorio\JOHAN\Codigos\CodigoJava\Readr-Microservice\Comment-Service\src\main\java\com\monaschinas\readr\comment\domain\persistence\CommentRepository.java
+C:\Users\jhuan\OneDrive\Escritorio\JOHAN\Codigos\CodigoJava\Readr-Microservice\Comment-Service\src\main\java\com\monaschinas\readr\comment\domain\model\Comment.java
+C:\Users\jhuan\OneDrive\Escritorio\JOHAN\Codigos\CodigoJava\Readr-Microservice\Comment-Service\src\main\java\com\monaschinas\readr\comment\resource\UpdateCommentResource.java
+C:\Users\jhuan\OneDrive\Escritorio\JOHAN\Codigos\CodigoJava\Readr-Microservice\Comment-Service\src\main\java\com\monaschinas\readr\comment\mapping\MappingConfiguration.java
+C:\Users\jhuan\OneDrive\Escritorio\JOHAN\Codigos\CodigoJava\Readr-Microservice\Comment-Service\src\main\java\com\monaschinas\readr\shared\mapping\MappingConfiguration.java

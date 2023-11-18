@@ -1,0 +1,16 @@
+C:\Users\jhuan\OneDrive\Escritorio\JOHAN\Codigos\CodigoJava\Readr-Microservice\Chapter-Service\src\main\java\com\monaschinas\readr\chapter\api\rest\ChapterController.java
+C:\Users\jhuan\OneDrive\Escritorio\JOHAN\Codigos\CodigoJava\Readr-Microservice\Chapter-Service\src\main\java\com\monaschinas\readr\chapter\domain\persistence\ChapterRepository.java
+C:\Users\jhuan\OneDrive\Escritorio\JOHAN\Codigos\CodigoJava\Readr-Microservice\Chapter-Service\src\main\java\com\monaschinas\readr\chapter\resource\ChapterResource.java
+C:\Users\jhuan\OneDrive\Escritorio\JOHAN\Codigos\CodigoJava\Readr-Microservice\Chapter-Service\src\main\java\com\monaschinas\readr\chapter\domain\service\ChapterService.java
+C:\Users\jhuan\OneDrive\Escritorio\JOHAN\Codigos\CodigoJava\Readr-Microservice\Chapter-Service\src\main\java\com\monaschinas\readr\chapter\mapping\MappingConfiguration.java
+C:\Users\jhuan\OneDrive\Escritorio\JOHAN\Codigos\CodigoJava\Readr-Microservice\Chapter-Service\src\main\java\com\monaschinas\readr\shared\exception\ResourceNotFoundException.java
+C:\Users\jhuan\OneDrive\Escritorio\JOHAN\Codigos\CodigoJava\Readr-Microservice\Chapter-Service\src\main\java\com\monaschinas\readr\shared\mapping\MappingConfiguration.java
+C:\Users\jhuan\OneDrive\Escritorio\JOHAN\Codigos\CodigoJava\Readr-Microservice\Chapter-Service\src\main\java\com\monaschinas\readr\chapter\service\ChapterServiceImpl.java
+C:\Users\jhuan\OneDrive\Escritorio\JOHAN\Codigos\CodigoJava\Readr-Microservice\Chapter-Service\src\main\java\com\monaschinas\readr\ReadrApplication.java
+C:\Users\jhuan\OneDrive\Escritorio\JOHAN\Codigos\CodigoJava\Readr-Microservice\Chapter-Service\src\main\java\com\monaschinas\readr\chapter\resource\CreateChapterResource.java
+C:\Users\jhuan\OneDrive\Escritorio\JOHAN\Codigos\CodigoJava\Readr-Microservice\Chapter-Service\src\main\java\com\monaschinas\readr\shared\domain\service\communication\BaseResponse.java
+C:\Users\jhuan\OneDrive\Escritorio\JOHAN\Codigos\CodigoJava\Readr-Microservice\Chapter-Service\src\main\java\com\monaschinas\readr\shared\mapping\EnhancedModelMapper.java
+C:\Users\jhuan\OneDrive\Escritorio\JOHAN\Codigos\CodigoJava\Readr-Microservice\Chapter-Service\src\main\java\com\monaschinas\readr\chapter\resource\UpdateChapterResource.java
+C:\Users\jhuan\OneDrive\Escritorio\JOHAN\Codigos\CodigoJava\Readr-Microservice\Chapter-Service\src\main\java\com\monaschinas\readr\chapter\domain\model\Chapter.java
+C:\Users\jhuan\OneDrive\Escritorio\JOHAN\Codigos\CodigoJava\Readr-Microservice\Chapter-Service\src\main\java\com\monaschinas\readr\shared\exception\ResourceValidationException.java
+C:\Users\jhuan\OneDrive\Escritorio\JOHAN\Codigos\CodigoJava\Readr-Microservice\Chapter-Service\src\main\java\com\monaschinas\readr\chapter\mapping\ChapterMapper.java
